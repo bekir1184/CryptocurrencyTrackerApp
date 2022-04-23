@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">CryptocurrencyTrackerApp</string>
+    <string name="app_name_short">Cryptocurrency</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="top_image">Top Image</string>
+    <string name="welcome">Aramıza Hoşgeldiniz</string>
+    <string name="welcome_login">Tekrardan Hoşgeldiniz</string>
+    <string name="fill_in_all_fields_to_register">Kayıt olmak için tüm alanları doldurunuz.</string>
+    <string name="email_input_hint">Email adresinizi giriniz</string>
+    <string name="password_hint">Şifrenizi giriniz</string>
+    <string name="sign_in">Kayıt ol</string>
+    <string name="already_have_account">Zaten hesabımın varsa tıkla</string>
+    <string name="fill_in_all_fields_to_login">Giriş yapmak için tüm alanları doldurunuz</string>
+    <string name="if_you_dont_have_an_account_yet_click">Henüz hesabın yoksa tıkla</string>
+    <string name="login">Giriş yap</string>
+    <string name="bottom_nav_menu_home">Anasayfa</string>
+    <string name="bottom_nav_menu_my_coins">Coinlerim</string>
+    <string name="bottom_nav_menu_profile">Profil</string>
+    <string name="search_coin">Coin ara</string>
+    <string name="my_profile">Profilim</string>
+    <string name="mail">bekirersever@outlook.com</string>
+    <string name="email">Email</string>
+    <string name="version">Version 1.0.0</string>
+    <string name="log_out">Çıkış Yap</string>
+    <string name="github">Github\'da kaynak kodu inceleyebilirsin</string>
+    <string name="bitcoin">Bitcoin</string>
+    <string name="current_price">Anlık Fiyat</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius ante nisi, sed porta nisi feugiat a. Duis dictum lorem a ligula pellentesque, consequat porta lectus molestie. Morbi mollis, dui tincidunt volutpat semper, turpis dolor ultrices lectus, at vehicula sem risus at urna.</string>
+    <string name="see_all">devamını gör....</string>
+    <string name="my_coins">Coinlerim</string>
+</resources>

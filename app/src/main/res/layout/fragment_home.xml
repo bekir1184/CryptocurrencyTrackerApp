@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.homepage.home.Home">
+
+    <com.google.android.material.textfield.TextInputEditText
+        style="@style/Base.ThemeOverlay.Material3.TextInputEditText.HintStyle"
+        android:id="@+id/textInputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/rounded_search_bar"
+        android:drawableStart="@drawable/ic_baseline_search_24"
+        android:drawableTint="@color/dark_sea_blue_200"
+        android:hint="@string/search_coin"
+        android:elevation="10dp"
+        android:fontFamily="@font/poppins_regular"
+        android:padding="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textInputEditText">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <include layout="@layout/shimmet_coin_list_item" />
+            <include layout="@layout/shimmet_coin_list_item" />
+            <include layout="@layout/shimmet_coin_list_item" />
+            <include layout="@layout/shimmet_coin_list_item" />
+            <include layout="@layout/shimmet_coin_list_item" />
+            <include layout="@layout/shimmet_coin_list_item" />
+
+        </LinearLayout>
+
+
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:visibility="gone"
+        android:id="@+id/homeRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@+id/textInputEditText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

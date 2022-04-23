@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "308921016678",
+    "project_id": "cryptocurrencyapp-1e6c8",
+    "storage_bucket": "cryptocurrencyapp-1e6c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308921016678:android:162d0ea7e4c7598505e8a7",
+        "android_client_info": {
+          "package_name": "com.beko.cryptocurrencytrackerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308921016678-l1rfvbb6gbo79dn9lpcppm9olee6rrl6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiQQVflZJrxaPZxJqGt4HPzwHcsmOF3k8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308921016678-l1rfvbb6gbo79dn9lpcppm9olee6rrl6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

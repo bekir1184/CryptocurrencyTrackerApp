@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homepage_nav_graph"
+    app:startDestination="@id/home2">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.beko.cryptocurrencytrackerapp.ui.homepage.home.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home2_to_detailPage"
+            app:destination="@id/detailPage"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/myCoinsFragment"
+        android:name="com.beko.cryptocurrencytrackerapp.ui.homepage.mycoins.MyCoinsFragment"
+        android:label="fragment_my_coins"
+        tools:layout="@layout/fragment_my_coins" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.beko.cryptocurrencytrackerapp.ui.homepage.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/detailPage"
+        android:name="com.beko.cryptocurrencytrackerapp.ui.detailpage.DetailPage"
+        android:label="fragment_detail_page"
+        tools:layout="@layout/fragment_detail_page" >
+        <argument
+            android:name="CoinId"
+            app:argType="string" />
+    </fragment>
+</navigation>

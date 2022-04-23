@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.BottomNavigationView" parent="Widget.Design.BottomNavigationView">
+        <item name="fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="Base.ThemeOverlay.Material3.TextInputEditText.HintStyle" parent="TextAppearance.Design.Hint">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">16sp</item>
+
+    </style>
+</resources>

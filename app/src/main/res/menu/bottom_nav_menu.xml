@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home2"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:orderInCategory="1"
+        android:title="@string/bottom_nav_menu_home"
+        
+        app:showAsAction="always"
+        />
+
+
+    <item
+        android:id="@+id/myCoinsFragment"
+        android:icon="@drawable/ic_baseline_star_24"
+        android:orderInCategory="2"
+        android:title="@string/bottom_nav_menu_my_coins"
+        app:showAsAction="always"
+        />
+
+
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:orderInCategory="2"
+        android:title="@string/bottom_nav_menu_profile"
+        app:showAsAction="always"
+        />
+</menu>
