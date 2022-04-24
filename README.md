@@ -15,6 +15,7 @@ Cryptocurrency Tracker App
  * Coroutines
  * LiveData
  * ViewModel
+ * Firebase (Authentication , Firestore)
  
 ##  Architecture
   * Model View View-Model
